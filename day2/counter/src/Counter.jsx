@@ -11,7 +11,7 @@ const Counter = () => {
   return (
     <div>
         <h1>Counter</h1>
-        <h3>{counter}</h3>
+        <CounterValue />
         <button onClick={()=>handleIncDec(1)}>Increase</button><button onClick={()=>handleIncDec(-1)}>Decrease</button><button onClick={()=>handleMul(2)}>Double</button>
     </div>
   )
