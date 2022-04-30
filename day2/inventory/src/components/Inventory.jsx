@@ -24,7 +24,7 @@ const Inventory = () => {
     };
     return (
       <>
-      <div>
+      <div className='item'>
           <span>Books:</span>
           <button className="btn" onClick={() => handleIncrementb(1)}>
             +
@@ -34,7 +34,7 @@ const Inventory = () => {
           </button>
           <span className="total">{books}</span>
         </div>
-        <div>
+        <div className='item'>
           <span>Pens:</span>
           <button className="btn" onClick={() => handleIncrementp(1)}>
             +
@@ -44,7 +44,7 @@ const Inventory = () => {
           </button>
           <span className="total">{pens}</span>
         </div>
-        <div>
+        <div className='item'>
           <span>NoteBooks:</span>
           <button className="btn" onClick={() => handleIncrementnb(1)}>
             +
