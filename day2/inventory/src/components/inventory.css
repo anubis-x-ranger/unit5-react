@@ -1,0 +1,19 @@
+.btn{
+    border: 1px solid transparent;
+    color:red;
+    background-color: rgb(205, 205, 221);
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
